@@ -1,0 +1,60 @@
+.logo{
+    display: flex;
+    
+    color: rgb(9, 0, 134);
+
+    font-size: 13px;
+    font-weight: 10;
+}
+
+.logo>img{
+    height: 100px;
+}
+
+.logo>h2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.conteinar-tags{    
+    display: flex;
+
+    padding-top: 30px;
+}
+
+.tags{
+    display: flex;
+    gap: 30px;
+
+
+    padding-left: 70px;
+    padding-top: 25px;
+
+    font-size: 15px;
+
+}
+
+
+.tags>h3:hover{
+    color: blue;
+}
+
+
+.conteinar-numeros>img{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteinar-numeros{
+
+    
+
+
+    border: 1px solid black;
+    width: 700px;
+
+   margin-top: 20px;
+}
+
