@@ -1,7 +1,7 @@
 .logo{
     display: flex;
     
-    color: #ffffff;
+    color: #f5c66d;
 
     padding-bottom: 20px;
 
@@ -29,8 +29,14 @@
     background-color: #0A2849;
     color: white;
 
+    border-radius: 20px;
+
     padding-left: 35px;
     padding-top: 20px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .tags{
@@ -42,38 +48,33 @@
 
 
     padding-left: 170px;
-    padding-top: 25px;
-
-    
-
+    padding-top: 20px;
 }
-.tags>h3{
+
+.tags>p{
     font-size: 17px;
     font-weight: 100px;
 
     padding-top: 2px;
 
-    border: 1px solid white;
-    border-radius: 20px;
     width: 90px;
     height: 30px;
 
-    color: #0A2849;
+    color: #f5c66d;
 
-    background-color: #ffffff;
 }
 
-.tags>h3:hover{
-    background-color: #307dd0f0;
-    border: solid 1px #307dd0f0;
-    color: #ffffff;
+.tags>p:hover{
+    border-top: 1px solid #f5c66d;
+    border-bottom: 1px solid #f5c66d;
 }
 
 
-.conteinar-numeros>img{
+.imagemFrei{
     height: 100px;
     display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -84,8 +85,9 @@
 
 
     border: 1px solid black;
-    width: 700px;
-
-   margin-top: 20px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
 }
 

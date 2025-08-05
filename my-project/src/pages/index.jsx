@@ -12,21 +12,21 @@ export default function Site() {
                 </div>
 
                 <div className='tags'>
-                    <h3>Inicio</h3>
-                    <h3>Sobre Nós</h3>
-                    <h3>Cursos</h3>
-                    <h3>Notícias/Galeria</h3>   
-                    <h3>Doe</h3>
-                    <h3>Contato</h3>
+                    <p>Inicio</p>
+                    <p>Sobre Nós</p>
+                    <p>Cursos</p>
+                    <p>Galeria</p>   
+                    <p>Doe</p>
+                    <p>Contato</p>
                 </div>
 
 
             </div>
 
             <div className='conteinar-numeros'>
-                    <img src="/public/assets/images/imagemFrei.jpeg" alt="logoFrei" />
-                        <p>ola meu nome e gustavo fiz frei no ano de tal</p>
-                    
+                   <div className='imagemFrei'>
+                        <img src="/public/assets/images/imagemFrei.jpeg" />  
+                    </div>                     
             </div>
         </div>
     )
