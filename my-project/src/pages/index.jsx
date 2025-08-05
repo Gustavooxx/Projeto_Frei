@@ -24,10 +24,23 @@ export default function Site() {
             </div>
 
             <div className='conteinar-numeros'>
+
+                <div className='inscricao'>
+                    <p>olajoihodsanjkfniodjsasjad <br /> ksajsndkbusakBLDSB;.A <br /></p>
+
+                    <div className='button'>
+                        <button>Inscreva-se</button>
+                    </div>
+
+                </div>
+
                    <div className='imagemFrei'>
-                        <img src="/public/assets/images/imagemFrei.jpeg" />  
+                        <img src="/public/assets/images/imagemFrei2.webp" />  
                     </div>                     
             </div>
+
+            <h1 className='frase'>“Esforço que  transforma, e o orgulho permanece”.</h1>
+
         </div>
     )
 }
