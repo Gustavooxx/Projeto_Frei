@@ -37,106 +37,127 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-}
 
-.tags{
-    display: flex;
-
+    .tags{
+        display: flex;
     
-    text-align: center;
-    gap: 20px;
+        
+        text-align: center;
+        gap: 20px;
+    
+    
+        padding-left: 200px;
+        padding-top: 20px;
+    }
 
-
-    padding-left: 200px;
-    padding-top: 20px;
+    .tags>p{
+        font-size: 17px;
+        font-weight: 100px;
+    
+        padding-top: 2px;
+    
+        width: 90px;
+        height: 30px;
+    
+        color: #f5c66d;
+    
+    }
+        .tags>p:hover{
+            border-top: 1px solid #f5c66d;
+            border-bottom: 1px solid #f5c66d;
+        }
 }
 
-.tags>p{
-    font-size: 17px;
-    font-weight: 100px;
 
-    padding-top: 2px;
-
-    width: 90px;
-    height: 30px;
-
-    color: #f5c66d;
-
-}
-
-.tags>p:hover{
-    border-top: 1px solid #f5c66d;
-    border-bottom: 1px solid #f5c66d;
-}
-
-
-.imagemFrei>img{
-    position: absolute;
-    top: 30px;
-    right: 50px;
-    width:200px;
-    height: auto;
-    margin-top: 40px;
-}
 
 .conteinar-numeros{
     position: relative; 
     background-color: #ffff;
     color: #f3f3f3;
-
-
+    
+    
     border-radius: 30px;
     height: 400px;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 80px;
+
+    .imagemFrei>img{
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        width:200px;
+        height: auto;
+        margin-top: 40px;
+    }
     
-}
-
-.inscricao{
-    position: absolute;
-    background-color: #0A2849;
-    height: 340px;
-    width: 530px;
-
-    border-radius: 20px;
+    .inscricao{
+        position: absolute;
+        background-color: #0A2849;
+        height: 340px;
+        width: 530px;
     
-    margin-left: 40px;
-    padding-left: 50px;
-    padding-top: 50px;
-    top: 30px;
+        border-radius: 20px;
+        
+        margin-left: 40px;
+        padding-left: 50px;
+        padding-top: 50px;
+        top: 30px;
+    
+        .inscricao .titleP{
+            position: absolute;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+    
+        .button>button{
+            width: 130px;
+        
+            font-weight: 700;
+            font-size: 17px;
+            height: 35px;
+            border: 1px solid #f5c66d;
+            background-color: #f5c66d;
+        
+            border-radius: 20px;
+            margin-top: 10rem;
+        
+            margin-left:18rem;
+        }
 
+        .button>button:hover{
+            background-color: #ffd78c;
+        }
+        
+    }
+
+    .container-bolinhas{
+        display: flex;
+
+        .bolinha{
+            position: relative;
+            top: 22rem;
+            left: 15rem;
+            margin-left: 1rem;
+
+            background-color: #ffffff;
+            color: #000000;
+        
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 10rem;
+        }
+    }
 }
-.inscricao .titleP{
-    position: absolute;
-    margin-top: 50px;
-    font-size: 20px;
-}
 
-.button>button{
-    width: 130px;
 
-    height: 45px;
-    font-weight: 700;
-    font-size: 17px;
-    height: 35px;
 
-    height: 35px;
-
-    background-color: #f5c66d;
-
-    border-radius: 20px;
-    margin-top: 180px;
-    margin-top: 140px;
-
-    margin-left:320px;
-}
 
 .frase{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 20px;
     text-align: center;
 }
+
 .ApresentacaoCurso{
     display: flex;
 

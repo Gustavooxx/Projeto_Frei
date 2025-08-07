@@ -41,6 +41,19 @@ export default function Site() {
 
                 </div>
 
+                <div className='container-bolinhas'>
+
+                     <div className='bolinha'>
+                       <p></p>
+                     </div>
+                     <div className='bolinha'>
+                        <p></p>
+                     </div>
+                     <div className='bolinha'>
+                       <p></p>
+                     </div>
+                </div>
+
                     <div className='imagemFrei'>
                         <img src="/public/assets/images/imagemFrei.png" />  
                     </div>                     
