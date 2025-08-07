@@ -36,7 +36,7 @@ export default function Site() {
 
 
                     <div className='button'>
-                        <button>Inscreva-se</button>
+                        <button>Cadastre-se</button>
                     </div>
 
                 </div>
@@ -50,7 +50,20 @@ export default function Site() {
 
             <div className="ApresentacaoCurso">
 
-                <p>teste</p>
+                <div className='video'>
+
+                <p>video</p>
+
+                </div>
+
+                <div className='texto_apresentacao'>
+                    <p>irar ter um texto aqui</p>
+                </div>
+
+            </div>
+
+            <div className='iconeCurso'>
+
             </div>
 
         </div>

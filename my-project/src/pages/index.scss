@@ -96,7 +96,7 @@
 .inscricao{
     position: absolute;
     background-color: #0A2849;
-    height: 300px;
+    height: 340px;
     width: 530px;
 
     border-radius: 20px;
@@ -115,13 +115,15 @@
 
 .button>button{
     width: 130px;
-    height: 30px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 17px;
 
     background-color: #f5c66d;
 
     border-radius: 20px;
-    margin-top: 140px;
-    margin-left:330px;
+    margin-top: 180px;
+    margin-left:320px;
 }
 
 .frase{
@@ -129,5 +131,24 @@
     padding-top: 20px;
     text-align: center;
 }
+.ApresentacaoCurso{
+    display: flex;
 
+.video{
+    background-color: #000000;
+    color: #f3f3f3;
+    height: 300px;
+    width: 500px;
 
+    text-align: center;
+
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+}
+
+.texto_apresentacao>p{
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+}
