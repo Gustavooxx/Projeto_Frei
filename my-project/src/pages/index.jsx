@@ -2,6 +2,7 @@ import './index.scss'
 
 export default function Site() {
     return (
+        
         <div className='conteinar-site'>
 
             <div className='conteinar-tags'>
@@ -26,7 +27,13 @@ export default function Site() {
             <div className='conteinar-numeros'>
 
                 <div className='inscricao'>
-                    <p>olajoihodsanjkfniodjsasjad <br /> ksajsndkbusakBLDSB;.A <br /></p>
+                    
+                     <p className='titleP'>
+                        Faça já sua inscrição para participar<br />
+                        da nossa feira de profissões!
+                        </p>
+              
+
 
                     <div className='button'>
                         <button>Inscreva-se</button>
@@ -34,12 +41,17 @@ export default function Site() {
 
                 </div>
 
-                   <div className='imagemFrei'>
-                        <img src="/public/assets/images/imagemFrei2.webp" />  
+                    <div className='imagemFrei'>
+                        <img src="/public/assets/images/imagemFrei.png" />  
                     </div>                     
             </div>
 
             <h1 className='frase'>“Esforço que  transforma, e o orgulho permanece”.</h1>
+
+            <div className="ApresentacaoCurso">
+
+                <p>teste</p>
+            </div>
 
         </div>
     )
