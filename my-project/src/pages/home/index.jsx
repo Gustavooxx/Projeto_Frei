@@ -1,5 +1,7 @@
 import './index.scss'
 
+import { Link } from 'react-router-dom'
+
 export default function Site() {
     return (
         
@@ -13,12 +15,12 @@ export default function Site() {
                 </div>
 
                 <div className='tags'>
-                    <p>Inicio</p>
-                    <p>Sobre Nós</p>
-                    <p>Cursos</p>
-                    <p>Galeria</p>   
-                    <p>Doe</p>
-                    <p>Contato</p>
+                    <Link >Inicio</Link>
+                    <Link to='/SobreNos' > Sobre Nos</Link>
+                    <Link>Curso</Link>
+                    <Link>Galeria</Link> 
+                    <Link>Doe</Link>
+                    <Link>Contato</Link>
                 </div>
 
 

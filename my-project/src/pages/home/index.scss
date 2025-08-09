@@ -40,35 +40,43 @@
 
     .tags{
         display: flex;
-    
         
         text-align: center;
         gap: 20px;
-    
     
         padding-left: 200px;
         padding-top: 20px;
     }
 
-    .tags>p{
+    a {
+        text-decoration: none;
+        text-transform: none;
+        color: #f5c66d;
+    }
+
+    .tags a {
         font-size: 17px;
-        font-weight: 100px;
-    
+        font-weight: 100;
         padding-top: 2px;
-    
         width: 90px;
         height: 30px;
-    
         color: #f5c66d;
-    
-    }
-        .tags>p:hover{
+        transition: all 0.5s ease;
+
+        &:hover {
+            color: #ffd78c;
             border-top: 1px solid #f5c66d;
             border-bottom: 1px solid #f5c66d;
         }
+
+        &:active{
+            border-radius: 20px;
+            background-color: cornflowerblue;
+            color: white;
+        }
+
+    }
 }
-
-
 
 .conteinar-numeros{
     position: relative; 
@@ -149,9 +157,6 @@
         }
     }
 }
-
-
-
 
 .frase{
     padding-top: 20px;

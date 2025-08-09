@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.scss'
-import Site from './pages/index.jsx'
+
+import Navegacao from './router'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Site />
-  </StrictMode>,
+   < Navegacao />
+  </StrictMode>
 )
