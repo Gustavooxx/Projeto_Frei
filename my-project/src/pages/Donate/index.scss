@@ -1,22 +1,22 @@
-.logo{
+.logo {
     display: flex;
-    
+
     color: #0A2849;
 
     font-size: 9px;
-    
+
 }
 
-.logo>img{
+.logo>img {
     height: 60px;
 }
 
-.logo>h2{
+.logo>h2 {
     padding-top: 3px;
     padding-left: 10px;
 }
 
-.conteinar-tags{    
+.conteinar-tags {
     display: flex;
 
     color: white;
@@ -30,23 +30,23 @@
     margin-left: 20px;
     margin-right: 20px;
 
-    .tags{
+    .tags {
         display: flex;
 
         background-color: #0A2849;
         width: 35rem;
         border-radius: 30px;
         height: 3rem;
-        
+
         text-align: center;
         gap: 30px;
-    
+
         margin-left: 20rem;
         padding-left: 3rem;
         padding-top: 10px;
     }
 
-    a{
+    a {
         text-decoration: none;
         text-transform: none;
         color: #f5c66d;
@@ -67,7 +67,7 @@
 
         }
 
-        &:active{
+        &:active {
             color: white;
         }
 
@@ -75,86 +75,132 @@
     }
 }
 
-.contribuinte{
+.contribuinte {
     display: flex;
-    
-    margin-top: 3rem;
+
+    margin-top: 5rem;
     padding-top: 3rem;
 
-    background-color: #ffffff;;
 
-.texto-contribuinte{
-    width: 35rem;
+    .texto-contribuinte {
+        width: 35rem;
 
-    margin-left: 3rem;
+        margin-left: 3rem;
 
-    
-    a{
-        text-decoration: none;
-        text-transform: none;
-        color: #ffffff;
-        
-    }
 
-    .links{
-        display: flex;
-        gap: 5rem;
+        a {
+            text-decoration: none;
+            text-transform: none;
+            color: #ffffff;
 
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        }
 
-    }
-    
-    .links a{
-        border: 1px solid #516f8a;
-        background-color: #516f8a;
-        height: 2.5rem;
-        border-radius: 5px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0.5rem;
+        .links {
+            display: flex;
+            gap: 5rem;
 
-        &:hover{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+        }
+
+        .links a {
+            border: 1px solid #516f8a;
             background-color: #516f8a;
+            height: 2.5rem;
+            border-radius: 5px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.5rem;
+
+            &:hover {
+                background-color: #2a4e6d;
             }
 
-        &:active{
-            background-color: #6c859b;
+            &:active {
+                background-color: #6c859b;
+            }
         }
+
+    }
+
+    .texto-contribuinte>p {
+        padding-top: 3rem;
+        font-size: 18px;
+        margin-right: auto;
+
+    }
+
+
+    .imagem-contribuinte {
+        width: 100px;
+        margin-left: auto;
+        margin-right: 2rem;
     }
 
 }
 
-.texto-contribuinte>p{
-    padding-top: 3rem;
-    font-size: 18px;
-    margin-right: auto;
-
-}
-
-.imagem-contribuinte{
-   margin-left: auto;
-   margin-right: 2rem;
-}
-
-}
-
-.contribuicoes{
+.contribuicoes {
     margin-top: 5rem;
     background-color: #0A2849;
     color: #ffffff;
     display: flex;
 
-    .imagem-contribuicoes{
-        margin-right:auto ;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .imagem-contribuicoes {
+        width: 400px;
+        margin-right: auto;
         margin-left: 2rem;
     }
 
-    .texto-contribuicoes{
-        background-color: #f5c66d;
+    .texto-contribuicoes {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
         width: 35rem;
+        padding-top: 5rem;
+
         margin-left: auto;
         margin-right: 2rem;
 
+
     }
+}
+
+.images-escola {
+    margin-top: 5rem;
+}
+
+.como-doar {
+    display: flex;
+    justify-content: center;
+
+
+    .texto-doar {
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 2rem;
+
+
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-top: 5rem;
+        background-color: aqua;
+        width: 40rem;
+
+
+    }
+
+    .texto-doar>p {
+        font-size: 18px;
+    }
+    .texto-doar>h4{
+        font-size: 20px;
+    }
+
 }

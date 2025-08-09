@@ -10,15 +10,15 @@ export default function Doar() {
 
 
                 <div className='logo'>
-                     <img src="/assets/images/logofrei.jpeg" />
-                     <h2>Instituto Nossa <br /> Senhora <br /> De Fátima</h2> 
+                    <img src="/assets/images/logofrei.jpeg" />
+                    <h2>Instituto Nossa <br /> Senhora <br /> De Fátima</h2>
                 </div>
 
-                 <div className='tags'>
+                <div className='tags'>
                     <Link to='/'>Inicio</Link>
                     <Link to='/SobreNos'  > Sobre Nos</Link>
                     <Link>Curso</Link>
-                    <Link>Galeria</Link> 
+                    <Link>Galeria</Link>
                     <Link to='/Donate'>Doe</Link>
                     <Link>Contato</Link>
                 </div>
@@ -29,12 +29,12 @@ export default function Doar() {
 
                 <div className='texto-contribuinte'>
 
-                 <h1>Transforme vidas com sua generosidate</h1>
+                    <h1>Transforme vidas com sua generosidate</h1>
 
                     <p>Contribua e ajude a mudar vidas! Já parou para refletir sobre como pequenos atos podem causar grandes transformações? No Instituto, temos a verdade de que, unidos, podemos moldar o futuro de milhares de jovens e suas famílias. Junte-se a nós nessa missão tornando-se um doador da nossa instituição!</p>
-                    
+
                     <div className='links'>
-                        <Link>Conheça nossos Projetos</Link>
+                        <Link>Conheça Nossos Projetos</Link>
                         <Link> Doe agora</Link>
                     </div>
 
@@ -44,8 +44,8 @@ export default function Doar() {
 
                     <div className='imagem'>
 
-                     <img src="/assets/images/logofrei.jpeg" alt=""  width='100px'/>
-                     <p>vai ser outra imagem</p>
+                        <img src="/assets/images/logofrei.jpeg" alt="" width='100px' />
+                        <p>vai ser outra imagem</p>
 
                     </div>
 
@@ -55,35 +55,73 @@ export default function Doar() {
 
             <div className='contribuicoes'>
 
-                    <div className='imagem-contribuicoes'>
+                <div className='imagem-contribuicoes'>
 
-                        <img src="/assets/images/imagemFrei.png" alt="" width='100px'/>
-                        <p>outra imagem</p>
+                    <img src="/assets/images/imageDoe.png" />
+                    <p>outra imagem</p>
 
-                    </div>
+                </div>
 
-                    <div className='texto-contribuicoes'>
+                <div className='texto-contribuicoes'>
 
-                         <h2>Todas as formas de colaboração são bem-vindas! Contribua com sua doação:</h2>
+                    <h2>Todas as formas de colaboração são bem-vindas! Contribua com sua doação:</h2>
 
-                         <ul>
-                            <li>
+                    <ul>
+                        <li>
                             Equipamentos e Materiais: Computadores, notebooks, peças de informática, equipamentos e componentes eletroeletrônicos, itens de robótica, materiais para manutenção de carros, equipamentos de padaria, materiais de escritório e livros para a biblioteca (didáticos ou de ficção e não ficção).
-                            </li>
+                        </li>
+                    </ul>
 
-                         </ul>
+                    <ul>
+                        <li>
+                            Cestas Básicas: Contribua diretamente para o bem-estar de quem mais precisa.
+                        </li>
+                    </ul>
 
-                        <ul>
-                           <li>
-                               Cestas Básicas: Contribua diretamente para o bem-estar de quem mais precisa.
-                           </li>
-                        </ul>
+                    <ul>
+                        <li>
+                            Qualquer Valor em Dinheiro: Toda quantia, grande ou pequena, faz a diferença na formação dos nossos alunos.
+                        </li>
+                    </ul>
 
-                    </div>
+                    <ul>
+                        <li>
+                            Seu Trabalho Voluntário: Doe seu tempo e habilidades para transformar vidas.
+                        </li>
+                    </ul>
+
+                </div>
 
             </div>
 
-                
+            <div className='images-escola'>
+
+                <div className='images'>
+                    <h3>images de dentro da escola</h3>
+                </div>
+
+            </div>
+
+            <div className='como-doar'>
+
+                <div className='texto-doar'>
+
+                    <h4>Como Fazer Sua Doação?</h4>
+
+                    <p>Entre em contato conosco clicando no botão abaixo e escolha a opção "Seja doador/parceiro" na área "assunto". Não se esqueça de mencionar na mensagem como você gostaria de nos ajudar.
+
+                        Estamos prontos para acolher sua colaboração e transformar em oportunidades para nossos jovens.
+
+                        junte-se a nós e faça parte da mudança! Seu gesto pode ser o primeiro passo rumo a um futuro mais justo e repleto de possibilidades.</p>
+
+                        <div className='button-doar'>
+                            <Link>Quero Doar</Link>
+                        </div>
+                </div>
+
+            </div>
+
+
         </div>
 
     )

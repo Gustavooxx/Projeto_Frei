@@ -56,10 +56,12 @@ export default function Site() {
 
                     <div className='imagemFrei'>
                         <img src="/public/assets/images/imagemFrei.png" />  
-                    </div>                     
+                    </div>    
+
+                <h1 className='frase'>“Esforço que  transforma, e o orgulho permanece”.</h1>
+                
             </div>
 
-            <h1 className='frase'>“Esforço que  transforma, e o orgulho permanece”.</h1>
 
             <div className="ApresentacaoCurso">
 
