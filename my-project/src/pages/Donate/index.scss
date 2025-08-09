@@ -1,0 +1,160 @@
+.logo{
+    display: flex;
+    
+    color: #0A2849;
+
+    font-size: 9px;
+    
+}
+
+.logo>img{
+    height: 60px;
+}
+
+.logo>h2{
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.conteinar-tags{    
+    display: flex;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding-left: 35px;
+    padding-top: 20px;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .tags{
+        display: flex;
+
+        background-color: #0A2849;
+        width: 35rem;
+        border-radius: 30px;
+        height: 3rem;
+        
+        text-align: center;
+        gap: 30px;
+    
+        margin-left: 20rem;
+        padding-left: 3rem;
+        padding-top: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        text-transform: none;
+        color: #f5c66d;
+    }
+
+    .tags a {
+        font-size: 17px;
+        font-weight: 300;
+        padding-top: 2px;
+        height: 30px;
+        color: #f5c66d;
+        transition: all 0.5s ease;
+
+        &:hover {
+            color: #ffd78c;
+            border-top: 1px solid #f5c66d;
+            border-bottom: 1px solid #f5c66d;
+
+        }
+
+        &:active{
+            color: white;
+        }
+
+
+    }
+}
+
+.contribuinte{
+    display: flex;
+    
+    margin-top: 3rem;
+    padding-top: 3rem;
+
+    background-color: #ffffff;;
+
+.texto-contribuinte{
+    width: 35rem;
+
+    margin-left: 3rem;
+
+    
+    a{
+        text-decoration: none;
+        text-transform: none;
+        color: #ffffff;
+        
+    }
+
+    .links{
+        display: flex;
+        gap: 5rem;
+
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    }
+    
+    .links a{
+        border: 1px solid #516f8a;
+        background-color: #516f8a;
+        height: 2.5rem;
+        border-radius: 5px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+
+        &:hover{
+            background-color: #516f8a;
+            }
+
+        &:active{
+            background-color: #6c859b;
+        }
+    }
+
+}
+
+.texto-contribuinte>p{
+    padding-top: 3rem;
+    font-size: 18px;
+    margin-right: auto;
+
+}
+
+.imagem-contribuinte{
+   margin-left: auto;
+   margin-right: 2rem;
+}
+
+}
+
+.contribuicoes{
+    margin-top: 5rem;
+    background-color: #0A2849;
+    color: #ffffff;
+    display: flex;
+
+    .imagem-contribuicoes{
+        margin-right:auto ;
+        margin-left: 2rem;
+    }
+
+    .texto-contribuicoes{
+        background-color: #f5c66d;
+        width: 35rem;
+        margin-left: auto;
+        margin-right: 2rem;
+
+    }
+}

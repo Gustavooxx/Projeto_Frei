@@ -15,11 +15,11 @@ export default function Site() {
                 </div>
 
                 <div className='tags'>
-                    <Link >Inicio</Link>
-                    <Link to='/SobreNos' > Sobre Nos</Link>
+                    <Link to='/'>Inicio</Link>
+                    <Link to='/SobreNos' className='SobreNos' > Sobre Nos</Link>
                     <Link>Curso</Link>
                     <Link>Galeria</Link> 
-                    <Link>Doe</Link>
+                    <Link to='/Donate'>Doe</Link>
                     <Link>Contato</Link>
                 </div>
 
@@ -34,11 +34,9 @@ export default function Site() {
                         Faça já sua inscrição para participar<br />
                         da nossa feira de profissões!
                         </p>
-              
-
 
                     <div className='button'>
-                        <button>Cadastre-se</button>
+                        <Link to='/Register'>Cadastre-se</Link>
                     </div>
 
                 </div>
