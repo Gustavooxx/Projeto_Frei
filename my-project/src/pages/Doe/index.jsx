@@ -19,7 +19,7 @@ export default function Doar() {
                     <Link to='/SobreNos'  > Sobre Nos</Link>
                     <Link>Curso</Link>
                     <Link>Galeria</Link>
-                    <Link to='/Donate'>Doe</Link>
+                    <Link to='/Doe'>Doe</Link>
                     <Link>Contato</Link>
                 </div>
 

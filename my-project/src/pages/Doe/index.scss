@@ -1,3 +1,5 @@
+.conteinar-doe{
+
 .logo {
     display: flex;
 
@@ -19,14 +21,7 @@
 .conteinar-tags {
     display: flex;
 
-    color: white;
-
-    border-radius: 20px;
-
-    padding-left: 35px;
-    padding-top: 20px;
-
-    margin-top: 10px;
+    margin-top: 2rem;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -41,7 +36,8 @@
         text-align: center;
         gap: 30px;
 
-        margin-left: 20rem;
+        margin-left: auto;
+        margin-right: 3rem;
         padding-left: 3rem;
         padding-top: 10px;
     }
@@ -58,10 +54,8 @@
         padding-top: 2px;
         height: 30px;
         color: #f5c66d;
-        transition: all 0.5s ease;
 
         &:hover {
-            color: #ffd78c;
             border-top: 1px solid #f5c66d;
             border-bottom: 1px solid #f5c66d;
 
@@ -190,7 +184,6 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
         margin-top: 5rem;
-        background-color: aqua;
         width: 40rem;
 
 
@@ -202,5 +195,38 @@
     .texto-doar>h4{
         font-size: 20px;
     }
+
+    .button-doar{
+        margin-top: 2rem;
+    }
+    
+    a {
+        text-decoration: none;
+        text-transform: none;
+        color: #ffffff;
+    }
+
+    .button-doar a{
+        background-color: #516f8a;
+        border-radius: 5px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 15rem;
+
+        &:hover{
+            background-color: #2a4e6d;
+        }
+
+        &:active{
+            background-color: #6c859b;
+        }
+    }
+
+
+
+}
 
 }

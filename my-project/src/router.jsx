@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import Site from './pages/home/index.jsx'
-import SobreNos from './pages/Surnames/index.jsx'
-import Registrar from './pages/Register/index.jsx'
-import Doar from './pages/Donate/index.jsx'
+import Site from './pages/Casa/index.jsx'
+import SobreNos from './pages/SobreNos/index.jsx'
+import Registrar from './pages/Cadastro/index.jsx'
+import Doar from './pages/Doe/index.jsx'
 
 
 export default function Navegacao() {
@@ -15,8 +15,8 @@ export default function Navegacao() {
                <Routes>
                  <Route path="/" element={<Site />} />
                  <Route path='/SobreNos' element={<SobreNos />}/>
-                 <Route path='/Register' element={<Registrar/>}/>
-                 <Route path='/Donate' element={<Doar/>}/>
+                 <Route path='/Cadastro' element={<Registrar/>}/>
+                 <Route path='/Doe' element={<Doar/>}/>
               </Routes>
             </BrowserRouter>
           </StrictMode>

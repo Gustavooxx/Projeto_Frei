@@ -1,3 +1,5 @@
+.conteinar-inicio{
+
 .logo{
     display: flex;
     
@@ -24,13 +26,7 @@
 .conteinar-tags{    
     display: flex;
 
-    color: white;
-
-    border-radius: 20px;
-
-    padding-left: 35px;
-    padding-top: 20px;
-
+    margin-top: 2rem;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -45,7 +41,8 @@
         text-align: center;
         gap: 30px;
     
-        margin-left: 20rem;
+        margin-left: auto;
+        margin-right: 3rem;
         padding-left: 3rem;
         padding-top: 10px;
     }
@@ -62,10 +59,9 @@
         padding-top: 2px;
         height: 30px;
         color: #f5c66d;
-        transition: all 0.5s ease;
+        
 
         &:hover {
-            color: #ffd78c;
             border-top: 1px solid #f5c66d;
             border-bottom: 1px solid #f5c66d;
 
@@ -95,7 +91,6 @@
         top: 30px;
         right: 50px;
         width:200px;
-        height: auto;
         margin-top: 40px;
     }
     
@@ -128,6 +123,11 @@
             position: relative;
             top: 10rem;
             left: 30rem;
+
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
             
             border: 1px solid #f5c66d;
             background-color: #f5c66d;
@@ -188,5 +188,6 @@
 .texto_apresentacao>p{
     margin-top: 4rem;
     margin-left: 5rem;
+}
 }
 }

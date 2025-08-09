@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Site() {
     return (
         
-        <div className='conteinar-site'>
+        <div className='conteinar-inicio'>
 
             <div className='conteinar-tags'>
 
@@ -19,7 +19,7 @@ export default function Site() {
                     <Link to='/SobreNos' className='SobreNos' > Sobre Nos</Link>
                     <Link>Curso</Link>
                     <Link>Galeria</Link> 
-                    <Link to='/Donate'>Doe</Link>
+                    <Link to='/Doe'>Doe</Link>
                     <Link>Contato</Link>
                 </div>
 
@@ -36,7 +36,7 @@ export default function Site() {
                         </p>
 
                     <div className='button'>
-                        <Link to='/Register'>Cadastre-se</Link>
+                        <Link to='/Cadastro'>Cadastre-se</Link>
                     </div>
 
                 </div>
@@ -72,7 +72,7 @@ export default function Site() {
                 </div>
 
                 <div className='texto_apresentacao'>
-                    <p>irar ter um texto aqui</p>
+                    <p>vai ter um texto aqui</p>
                 </div>
 
             </div>
